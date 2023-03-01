@@ -1,0 +1,477 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.principal{
+    margin: 0 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.wrapper{
+    margin: 20px 0;
+    background-color: #FFC315;
+    padding: 37px;
+    color: black;
+    
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    color: black;
+    text-decoration: none;
+    font-size: 26px;
+    border-bottom: 3px solid black;
+    border-top: 3px solid black;
+    letter-spacing: 2px;
+    font-weight: 500;
+    padding: 4px 2px;
+}
+
+.menu{
+    display: flex;
+}
+
+li{
+    list-style: none;
+    padding-left: 33px;
+    font-size: 13.5px;
+    letter-spacing: .0625rem;
+}
+
+.introducao{
+    background-image: url("image/pexels-luis-fernandes-1974100.jpg");
+    background-size: cover;
+    overflow: hidden;
+    width: 110v;
+    height: 565px;
+    display: flex;
+    align-items: center;
+}
+
+
+.text-intro{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.787);
+    display: flex;
+    width: 630px;
+    height: auto;
+    margin-left: 150px;
+}
+
+
+
+.text-intro-bor{
+    border: 1px solid white;
+    margin: 20px;
+    padding: 45px;
+    letter-spacing: 5px;
+}
+
+
+.text-intro-bor-h3{
+    padding-bottom: 16px;
+}
+
+.text-intro-bor-h1{
+    padding-bottom: 16px;
+    font-size: 36px;
+    line-height: 55px;
+    letter-spacing: 7px;
+}
+
+#logomarca{
+    font-weight: 100px;
+    line-height: 30px;
+}
+
+.conteudo-intro{
+    width: 110v;
+    height: 565px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.conteudo-intro-espa{
+    display: flex;
+    margin: 0 140px;
+}
+
+.photo-Jonathan{
+    width: 600px;
+    height: 390px;
+    overflow: hidden;
+    display: flex;
+}
+
+.conteudo-photo{
+    width: 400px;
+    padding: 0 25px;
+}
+
+#conteudo-photo-h2{
+    font-size: 32px;
+    letter-spacing: 6px;
+    margin-bottom: 22px;
+    line-height: 50px;
+}
+
+#conteudo-photo-p-pri{
+    margin-bottom: 17px;
+    color: #A4A4A4;
+    letter-spacing: 2px;
+}
+
+#conteudo-photo-p-seg{
+    line-height: 30px;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.CADC{
+    width: 110v;
+    height: 700px;
+    background-color: #FFC315;
+    align-items: center;
+    display: flex;
+   
+}
+
+.conteudo-cadc{
+    display: flex;
+    margin: auto;
+    overflow: hidden;
+}
+
+.conteudo-cadc-img{
+    width: 500px;
+    height: 500px;
+    overflow: hidden;
+}
+
+.conteudo-cadc-text{
+    width: 600px;
+    height: 300px;
+    margin-right: 60px;
+    
+}
+
+#conteudo-cadc-text-p-pri{
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+}
+
+#conteudo-cadc-text-h2{
+    margin-bottom: 25px;
+    letter-spacing: 5px;
+    font-size: 37px;
+}
+
+#conteudo-cadc-text-p-seg{
+    line-height: 30px;
+    font-size: 20px;
+}
+
+@media (max-width: 1225px) {
+    .CADC{
+        width: 110v;
+        height: 700px;
+        background-color: #FFC315;
+        align-items: center;
+        display: flex;
+       
+    }
+    
+    .conteudo-cadc{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+        background-color: red;
+    }
+
+    .img-cadc{
+        width: 400px;
+
+    }
+    
+    
+    .conteudo-cadc-text{
+        width: 350px;
+        height: auto;
+        background-color: blue;
+        margin-left: 20px;
+    }
+    
+    #conteudo-cadc-text-p-pri{
+        margin-bottom: 18px;
+        letter-spacing: 2px;
+    }
+    
+    #conteudo-cadc-text-h2{
+        margin-bottom: 25px;
+        letter-spacing: 5px;
+        font-size: 32px;
+    }
+    
+    #conteudo-cadc-text-p-seg{
+        line-height: 30px;
+        font-size: 18px;
+    }
+    
+}
+
+.menu-bebi{
+    background-image: url('image/elevate-nYgy58eb9aw-unsplash.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    overflow: hidden;
+    margin: 20px 0;
+    width: 110v;
+    height: 300px;
+}
+
+.menu-bebi-text{
+    color: white;
+    margin: auto;
+    font-size: 50px;
+}
+
+.infor-bebi{
+    width: 110v;
+    height: 565px;
+    align-items: center;
+    display: flex;
+}
+
+.infor-bebi-espa{
+    margin: 0 140px;
+    display: flex;
+    overflow: hidden;
+}
+
+.infor-bebi-img{
+    width: 600px;
+    height: 380px;
+    overflow: hidden;
+    display: flex;
+}
+
+.infor-bebi-text{
+    float: right;
+    width: 500px;
+    height: 350px;
+    padding: 0 20px;
+}
+
+#infor-bebi-text-p-pri{
+    margin-bottom: 17px;
+    color: #A4A4A4;
+    letter-spacing: 2px;
+}
+
+#infor-bebi-text-h2{
+    font-size: 35px;
+    letter-spacing: 6px;
+    margin-bottom: 22px;
+    line-height: 50px;
+}
+
+#infor-bebi-text-p-seg{
+    line-height: 30px;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.infor-bebi-seg{
+    width: 110v;
+    height: 550px;
+    display: flex;
+}
+
+.infor-bebi-espa-seg{
+    margin: 0 140px;
+}
+
+.infor-bebi-seg-p{
+    line-height: 30px;
+    font-size: 18px;
+    font-weight: 300;
+    margin-bottom: 20px;
+    padding: 0 30px;
+}
+
+.titu-drogas{
+    background-image: url('image/pexels-mart-production-7230344.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    overflow: hidden;
+    margin: 20px 0;
+    width: 110v;
+    height: 300px;
+}
+
+.titu-drogas-text{
+    margin: auto;
+    color: white;
+    text-align: center;
+}
+
+#titu-drogas-text-h2{
+    margin-bottom: 10px;
+    font-size: 70px;
+}
+
+#titu-drogas-text-p{
+    font-size: 34px;
+}
+
+.intro-droga{
+    width: 110v;
+    height: 950px;
+    background-color: #FFC315;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-bottom: 20px ;
+}
+
+.intro-droga-espa{
+    display: flex;
+    margin: 0 140px;
+    overflow: hidden;
+}
+
+.intro-droga-img{
+    width: 500px;
+    height: 718.5px;
+    overflow: hidden;
+    display: flex;
+    margin-right: 20px;
+}
+
+#intro-droga-cont-text-h2{
+    font-size: 37px;
+    letter-spacing: 6px;
+    margin-bottom: 20px;
+    
+}
+
+.intro-droga-cont-text-p{
+    font-size: 18px;
+    margin-bottom: 20px;
+    width: 500px;
+    line-height: 30px;
+   
+}
+
+.cont-drogas{
+    width: 110v;
+    height: 565px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+.cont-drogas-espa{
+}
+
+.cont-drogas-titu{
+    text-align: center;
+}
+
+#cont-drogas-titu-h2{
+    font-size: 40px;
+}
+
+.cont-drogas-text{
+    display: flex;
+}
+
+.cont-drogas-text-pri{
+    margin-right: 60px;
+}
+
+.cont-drogas-text-pri-img{
+    width: 220px;
+    height: 400px;
+    display: flex;
+    margin: auto;
+}
+
+.cont-drogas-text-pri-text{
+    width: 500px;
+    height: 100px;
+    line-height: 25px;
+    text-align: justify;
+    font-size: 18px;
+}
+
+.cont-drogas-text-seg{
+   
+}
+
+.cont-drogas-text-seg-img{
+    width: 265px;
+    height: 400px;
+    display: flex;
+    margin: auto;
+}
+
+.cont-drogas-text-seg-text{
+    width: 500px;
+    height: 100px;
+    line-height: 25px;
+    text-align: justify;
+    font-size: 18px;
+}
+
+.cont-droga-con{
+    margin-top: 20px;
+    width: 110v;
+    height: 400px;
+    display: flex;
+    align-items: center;
+}
+
+.cont-droga-con-espa{
+    margin: 0 120px;
+}
+
+#cont-droga-con-p{
+    font-size: 18px;
+    margin-bottom: 20px;
+    line-height: 30px;
+}
+
+footer{
+    background-color: #FFC315;
+    height: 75px;
+    margin-bottom: 20px;
+    text-align: center;
+   justify-content: center;
+   display: flex;
+}
+
+footer div{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+footer a{
+    text-decoration: none;
+    color: black;
+}
+
+/*<input type="checkbox" name="" id="toggle">*/
