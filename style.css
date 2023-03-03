@@ -45,6 +45,8 @@ li{
     letter-spacing: .0625rem;
 }
 
+
+
 .introducao{
     background-image: url("image/pexels-luis-fernandes-1974100.jpg");
     background-size: cover;
@@ -97,18 +99,17 @@ li{
     display: flex;
     align-items: center;
     justify-content: center;
+    overflow: hidden;
 }
 
 .conteudo-intro-espa{
     display: flex;
-    margin: 0 140px;
+    overflow: hidden;
 }
 
 .photo-Jonathan{
     width: 600px;
     height: 390px;
-    overflow: hidden;
-    display: flex;
 }
 
 .conteudo-photo{
@@ -179,55 +180,6 @@ li{
     font-size: 20px;
 }
 
-@media (max-width: 1225px) {
-    .CADC{
-        width: 110v;
-        height: 700px;
-        background-color: #FFC315;
-        align-items: center;
-        display: flex;
-       
-    }
-    
-    .conteudo-cadc{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        overflow: hidden;
-        background-color: red;
-    }
-
-    .img-cadc{
-        width: 400px;
-
-    }
-    
-    
-    .conteudo-cadc-text{
-        width: 350px;
-        height: auto;
-        background-color: blue;
-        margin-left: 20px;
-    }
-    
-    #conteudo-cadc-text-p-pri{
-        margin-bottom: 18px;
-        letter-spacing: 2px;
-    }
-    
-    #conteudo-cadc-text-h2{
-        margin-bottom: 25px;
-        letter-spacing: 5px;
-        font-size: 32px;
-    }
-    
-    #conteudo-cadc-text-p-seg{
-        line-height: 30px;
-        font-size: 18px;
-    }
-    
-}
-
 .menu-bebi{
     background-image: url('image/elevate-nYgy58eb9aw-unsplash.jpg');
     background-size: cover;
@@ -261,8 +213,6 @@ li{
 .infor-bebi-img{
     width: 600px;
     height: 380px;
-    overflow: hidden;
-    display: flex;
 }
 
 .infor-bebi-text{
@@ -290,6 +240,7 @@ li{
     font-size: 18px;
     font-weight: 300;
 }
+
 
 .infor-bebi-seg{
     width: 110v;
@@ -380,18 +331,13 @@ li{
     display: flex;
     align-items: center;
     justify-content: center;
-   
-}
-
-.cont-drogas-espa{
-}
-
-.cont-drogas-titu{
-    text-align: center;
+   overflow: hidden;
 }
 
 #cont-drogas-titu-h2{
     font-size: 40px;
+    text-align: center;
+    
 }
 
 .cont-drogas-text{
@@ -415,10 +361,6 @@ li{
     line-height: 25px;
     text-align: justify;
     font-size: 18px;
-}
-
-.cont-drogas-text-seg{
-   
 }
 
 .cont-drogas-text-seg-img{
@@ -454,6 +396,8 @@ li{
     line-height: 30px;
 }
 
+
+
 footer{
     background-color: #FFC315;
     height: 75px;
@@ -472,6 +416,218 @@ footer div{
 footer a{
     text-decoration: none;
     color: black;
+}
+
+/*-----------------------------------------------------------------------------------------------------------------*/
+@media (max-width: 1313px){
+    .infor-bebi-img{
+        width: 500px;
+        height: 380px;
+    }
+}
+
+@media (max-width: 1245px) {
+
+    .CADC{
+        width: 110v;
+        height: 700px;
+        background-color: #FFC315;
+        align-items: center;
+        display: flex;
+       
+    }
+    
+    .conteudo-cadc{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+    }
+
+    .img-cadc{
+        width: 400px;
+
+    }
+    
+    .conteudo-cadc-text{
+        width: 350px;
+        height: auto;
+        margin-left: 20px;
+    }
+    
+    #conteudo-cadc-text-p-pri{
+        margin-bottom: 18px;
+        letter-spacing: 2px;
+    }
+    
+    #conteudo-cadc-text-h2{
+        margin-bottom: 25px;
+        letter-spacing: 5px;
+        font-size: 32px;
+    }
+    
+    #conteudo-cadc-text-p-seg{
+        line-height: 30px;
+        font-size: 18px;
+    }
+
+    .infor-bebi-img{
+        width: 400px;
+        height: 380px;
+        
+    }
+
+    .infor-bebi-text{
+        float: right;
+        width: 400px;
+        height: 350px;
+        padding: 0 20px;
+    }
+    
+    #infor-bebi-text-p-pri{
+        margin-bottom: 17px;
+        color: #A4A4A4;
+        letter-spacing: 2px;
+    }
+    
+    #infor-bebi-text-h2{
+        font-size: 29px;
+        letter-spacing: 4px;
+        margin-bottom: 19px;
+        line-height: 35px;
+    }
+    
+    #infor-bebi-text-p-seg{
+        line-height: 28px;
+        font-size: 18px;
+        font-weight: 300;
+    }
+    
+}
+
+@media (max-width: 1120px){
+    
+    .photo-Jonathan{
+        width: 500px;
+        height: 320px;
+    }
+    
+    .conteudo-photo{
+        width: 300px;
+        padding: 0 20px;
+    }
+    
+    #conteudo-photo-h2{
+        font-size: 29px;
+        letter-spacing: 4px;
+        margin-bottom: 22px;
+        line-height: 30px;
+    }
+    
+    #conteudo-photo-p-pri{
+        margin-bottom: 17px;
+        color: #A4A4A4;
+        letter-spacing: 2px;
+    }
+    
+    #conteudo-photo-p-seg{
+        line-height: 25px;
+        font-size: 16px;
+        font-weight: 300;
+    }
+    
+}
+
+@media (max-width: 1080px){
+    #cont-drogas-titu-h2{
+        font-size: 35px;
+        background-color: red;
+    }
+
+    .cont-drogas-text-pri{
+        margin-right: 60px;
+    }
+    
+    .cont-drogas-text-pri-img{
+        width: 220px;
+        height: 350px;
+        display: flex;
+        margin: auto;
+    }
+    
+    .cont-drogas-text-pri-text{
+        width: 400px;
+        height: 100px;
+        line-height: 25px;
+        text-align: justify;
+        font-size: 18px;
+    }
+    
+    .cont-drogas-text-seg-img{
+        width: 265px;
+        height: 350px;
+        display: flex;
+        margin: auto;
+    }
+    
+    .cont-drogas-text-seg-text{
+        width: 400px;
+        height: 100px;
+        line-height: 25px;
+        text-align: justify;
+        font-size: 18px;
+    }
+
+    .infor-bebi-espa{
+        background-color: blue;
+    }
+
+    .infor-bebi-img{
+        width: 350px;
+        height: 280px;
+        margin-right: 20px;
+    }
+
+    .infor-bebi-text{
+        float: right;
+        width: 400px;
+        height: 350px;
+        padding: 0 15px;
+        background-color: red;
+    }
+    
+    #infor-bebi-text-p-pri{
+        margin-bottom: 14px;
+        color: #A4A4A4;
+        letter-spacing: 2px;
+    }
+    
+    #infor-bebi-text-h2{
+        font-size: 29px;
+        letter-spacing: 4px;
+        margin-bottom: 10px;
+        line-height: 24px;
+    }
+    
+    #infor-bebi-text-p-seg{
+        line-height: 23px;
+        font-size: 16px;
+        font-weight: 300;
+    }
+
+    .infor-bebi-seg-p{
+        line-height: 23px;
+        font-size: 16px;
+        font-weight: 300;
+        margin-bottom: 20px;
+        padding: 0 30px;
+    }
+}
+
+
+
+@media(max-width: 900px){
+   
 }
 
 /*<input type="checkbox" name="" id="toggle">*/
