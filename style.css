@@ -303,10 +303,8 @@ li{
 }
 
 .intro-droga-img{
-    width: 500px;
-    height: 718.5px;
-    overflow: hidden;
-    display: flex;
+    width: 350px;
+    height: 690px;
     margin-right: 20px;
 }
 
@@ -323,6 +321,81 @@ li{
     width: 500px;
     line-height: 30px;
    
+}
+
+@media (max-width: 1265px){
+    
+    .intro-droga-img{
+        width: 350px;
+        height: 690px;
+        margin-right: 10px;
+    }
+    
+    #intro-droga-cont-text-h2{
+        font-size: 37px;
+        letter-spacing: 6px;
+        margin-bottom: 10px;
+        
+    }
+    
+    .intro-droga-cont-text-p{
+        font-size: 18px;
+        margin-bottom: 20px;
+        width: 400px;
+        line-height: 28.6px;
+    }
+
+    .intro-droga-cont-vid{
+        width: 400px;
+        display: flex;
+        overflow: hidden;
+    }
+
+}
+
+@media(max-width: 1090px){
+
+    .intro-droga{
+        width: 110v;
+        height: auto;
+        padding: 10px 0;
+        background-color: #FFC315;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        margin-bottom: 20px ;
+    }
+
+    .intro-droga-espa{
+        display: block;
+    }
+    
+    .intro-droga-img{
+        margin-bottom: 15px;
+        width: 400px;
+        height: 400px;
+        margin-right: 10px;
+    }
+    
+    #intro-droga-cont-text-h2{
+        font-size: 37px;
+        letter-spacing: 6px;
+        margin-bottom: 10px;
+        
+    }
+    
+    .intro-droga-cont-text-p{
+        font-size: 16px;
+        margin-bottom: 20px;
+        width: 400px;
+        line-height: 26px;
+    }
+
+    .intro-droga-cont-vid{
+        width: 400px;
+        display: flex;
+        overflow: hidden;
+    }
 }
 
 .cont-drogas{
@@ -351,7 +424,6 @@ li{
 .cont-drogas-text-pri-img{
     width: 220px;
     height: 400px;
-    display: flex;
     margin: auto;
 }
 
@@ -366,7 +438,6 @@ li{
 .cont-drogas-text-seg-img{
     width: 265px;
     height: 400px;
-    display: flex;
     margin: auto;
 }
 
@@ -396,7 +467,12 @@ li{
     line-height: 30px;
 }
 
-
+@media (max-width: 930px){
+    .cont-drogas-espa{
+        display: inline-block;
+        background-color: yellow;
+    }
+}
 
 footer{
     background-color: #FFC315;
@@ -541,7 +617,6 @@ footer a{
 @media (max-width: 1080px){
     #cont-drogas-titu-h2{
         font-size: 35px;
-        background-color: red;
     }
 
     .cont-drogas-text-pri{
@@ -576,10 +651,6 @@ footer a{
         line-height: 25px;
         text-align: justify;
         font-size: 18px;
-    }
-
-    .infor-bebi-espa{
-        background-color: blue;
     }
 
     .infor-bebi-img{
