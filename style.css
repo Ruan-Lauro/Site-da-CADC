@@ -323,81 +323,6 @@ li{
    
 }
 
-@media (max-width: 1265px){
-    
-    .intro-droga-img{
-        width: 350px;
-        height: 690px;
-        margin-right: 10px;
-    }
-    
-    #intro-droga-cont-text-h2{
-        font-size: 37px;
-        letter-spacing: 6px;
-        margin-bottom: 10px;
-        
-    }
-    
-    .intro-droga-cont-text-p{
-        font-size: 18px;
-        margin-bottom: 20px;
-        width: 400px;
-        line-height: 28.6px;
-    }
-
-    .intro-droga-cont-vid{
-        width: 400px;
-        display: flex;
-        overflow: hidden;
-    }
-
-}
-
-@media(max-width: 1090px){
-
-    .intro-droga{
-        width: 110v;
-        height: auto;
-        padding: 10px 0;
-        background-color: #FFC315;
-        align-items: center;
-        justify-content: center;
-        display: flex;
-        margin-bottom: 20px ;
-    }
-
-    .intro-droga-espa{
-        display: block;
-    }
-    
-    .intro-droga-img{
-        margin-bottom: 15px;
-        width: 400px;
-        height: 400px;
-        margin-right: 10px;
-    }
-    
-    #intro-droga-cont-text-h2{
-        font-size: 37px;
-        letter-spacing: 6px;
-        margin-bottom: 10px;
-        
-    }
-    
-    .intro-droga-cont-text-p{
-        font-size: 16px;
-        margin-bottom: 20px;
-        width: 400px;
-        line-height: 26px;
-    }
-
-    .intro-droga-cont-vid{
-        width: 400px;
-        display: flex;
-        overflow: hidden;
-    }
-}
-
 .cont-drogas{
     width: 110v;
     height: 565px;
@@ -419,12 +344,13 @@ li{
 
 .cont-drogas-text-pri{
     margin-right: 60px;
+    
 }
 
 .cont-drogas-text-pri-img{
-    width: 220px;
+    width: 265px;
     height: 400px;
-    margin: auto;
+    margin-left: 25%;
 }
 
 .cont-drogas-text-pri-text{
@@ -438,7 +364,7 @@ li{
 .cont-drogas-text-seg-img{
     width: 265px;
     height: 400px;
-    margin: auto;
+    margin-left: 25%;
 }
 
 .cont-drogas-text-seg-text{
@@ -581,6 +507,36 @@ footer a{
     
 }
 
+@media (max-width: 1265px){
+    
+    .intro-droga-img{
+        width: 350px;
+        height: 690px;
+        margin-right: 10px;
+    }
+    
+    #intro-droga-cont-text-h2{
+        font-size: 37px;
+        letter-spacing: 6px;
+        margin-bottom: 10px;
+        
+    }
+    
+    .intro-droga-cont-text-p{
+        font-size: 18px;
+        margin-bottom: 20px;
+        width: 400px;
+        line-height: 28.6px;
+    }
+
+    .intro-droga-cont-vid{
+        width: 400px;
+        display: flex;
+        overflow: hidden;
+    }
+
+}
+
 @media (max-width: 1120px){
     
     .photo-Jonathan{
@@ -612,6 +568,51 @@ footer a{
         font-weight: 300;
     }
     
+}
+
+@media(max-width: 1090px){
+
+    .intro-droga{
+        width: 110v;
+        height: auto;
+        padding: 10px 0;
+        background-color: #FFC315;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        margin-bottom: 20px ;
+    }
+
+    .intro-droga-espa{
+        display: block;
+    }
+    
+    .intro-droga-img{
+        margin-bottom: 15px;
+        width: 400px;
+        height: 400px;
+        margin-right: 10px;
+    }
+    
+    #intro-droga-cont-text-h2{
+        font-size: 37px;
+        letter-spacing: 6px;
+        margin-bottom: 10px;
+        
+    }
+    
+    .intro-droga-cont-text-p{
+        font-size: 16px;
+        margin-bottom: 20px;
+        width: 400px;
+        line-height: 26px;
+    }
+
+    .intro-droga-cont-vid{
+        width: 400px;
+        display: flex;
+        overflow: hidden;
+    }
 }
 
 @media (max-width: 1080px){
@@ -697,8 +698,174 @@ footer a{
 
 
 
-@media(max-width: 900px){
-   
+@media(max-width: 600px){
+    .text-intro{
+        color: white;
+        display: flex;
+        width: 300px;
+        height: auto;
+        margin-left: 120px;
+    }
+    
+    .text-intro-bor{
+        border: 1px solid white;
+        margin: 20px;
+        padding: 5px;
+        letter-spacing: 5px;
+    }
+    
+    
+    .text-intro-bor-h3{
+        padding-bottom: 10px;
+    }
+    
+    .text-intro-bor-h1{
+        padding-bottom: 16px;
+        font-size: 30px;
+        line-height: 45px;
+        letter-spacing: 7px;
+        
+    }
+    #logomarca{
+        font-weight: 100px;
+        line-height: 25px;
+    }
+
+    .conteudo-intro{
+        height: auto;
+    }
+    
+    .conteudo-intro-espa{
+        display: block;
+        overflow: hidden;
+        margin: 20px 0px;
+    }
+    
+    .photo-Jonathan{
+        width: 10v;
+        height: 300px;
+        margin-bottom: 20px;
+    }
+    
+    .conteudo-photo{
+        width: 400px;
+    }
+    
+    #conteudo-photo-h2{
+        font-size: 25px;
+        letter-spacing: 4px;
+        margin-bottom: 22px;
+        line-height: 50px;
+    }
+    
+    #conteudo-photo-p-pri{
+        margin-bottom: 17px;
+        color: #A4A4A4;
+        letter-spacing: 2px;
+    }
+    
+    #conteudo-photo-p-seg{
+        line-height: 30px;
+        font-size: 18px;
+        font-weight: 300;
+    }
+
+    .CADC{
+        height: auto;
+        justify-content: center;
+    }
+    
+    .conteudo-cadc{
+        display: block;
+        margin: 20px 0;
+    }
+    
+    .conteudo-cadc-img{
+        width: 300px;
+        height: 300px;
+    }
+    
+    .conteudo-cadc-text{
+        width: 300px;
+        height: auto;
+        margin-bottom: 20px;
+    }
+    
+    #conteudo-cadc-text-p-pri{
+        margin-bottom: 20px;
+        letter-spacing: 2px;
+    }
+    
+    #conteudo-cadc-text-h2{
+        margin-bottom: 25px;
+        letter-spacing: 5px;
+        font-size: 37px;
+    }
+    
+    #conteudo-cadc-text-p-seg{
+        line-height: 30px;
+        font-size: 20px;
+    }
+
+    .infor-bebi{
+        height: auto;
+    }
+    
+    .infor-bebi-espa{
+        display: block;
+        overflow: hidden;
+        height: auto;
+    }
+    
+    .infor-bebi-img{
+        width: 300px;
+        height: 300px;
+    }
+    
+    .infor-bebi-text{
+        float: none;
+        width: 300px;
+        height: auto;
+    }
+    
+    #infor-bebi-text-p-pri{
+        margin-bottom: 17px;
+        color: #A4A4A4;
+        letter-spacing: 2px;
+    }
+    
+    #infor-bebi-text-h2{
+        font-size: 35px;
+        letter-spacing: 6px;
+        margin-bottom: 22px;
+        line-height: 50px;
+    }
+    
+    #infor-bebi-text-p-seg{
+        line-height: 30px;
+        font-size: 18px;
+        font-weight: 300;
+    }
+    
+    
+    .infor-bebi-seg{
+        width: 110v;
+        height: 550px;
+        display: flex;
+    }
+    
+    .infor-bebi-espa-seg{
+        margin: 0 140px;
+    }
+    
+    .infor-bebi-seg-p{
+        line-height: 30px;
+        font-size: 18px;
+        font-weight: 300;
+        margin-bottom: 20px;
+        padding: 0 30px;
+    }
+    
 }
 
 /*<input type="checkbox" name="" id="toggle">*/
