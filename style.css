@@ -3,13 +3,12 @@
     padding: 0;
 }
 
-.principal{
-    margin: 0 20px;
-    font-family: Arial, Helvetica, sans-serif;
+body{
+   
+     font-family: Arial, Helvetica, sans-serif;
 }
 
 .wrapper{
-    margin: 20px 0;
     background-color: #FFC315;
     padding: 37px;
     color: black;
@@ -200,6 +199,7 @@ li{
     width: 110v;
     height: 565px;
     align-items: center;
+    justify-content: center;
     display: flex;
 }
 
@@ -244,8 +244,9 @@ li{
 
 .infor-bebi-seg{
     width: 110v;
-    height: 550px;
+    height: auto;
     display: flex;
+    margin-bottom: 70px;
 }
 
 .infor-bebi-espa-seg{
@@ -266,7 +267,7 @@ li{
     background-position: center;
     display: flex;
     overflow: hidden;
-    margin: 20px 0;
+    margin: 20px 0px;
     width: 110v;
     height: 300px;
 }
@@ -376,34 +377,25 @@ li{
 }
 
 .cont-droga-con{
-    margin-top: 20px;
+    margin: 40px 0;
     width: 110v;
-    height: 400px;
+    height: auto;
     display: flex;
-    align-items: center;
 }
 
 .cont-droga-con-espa{
     margin: 0 120px;
+    text-align: justify;
 }
 
 #cont-droga-con-p{
     font-size: 18px;
-    margin-bottom: 20px;
     line-height: 30px;
-}
-
-@media (max-width: 930px){
-    .cont-drogas-espa{
-        display: inline-block;
-        background-color: yellow;
-    }
 }
 
 footer{
     background-color: #FFC315;
     height: 75px;
-    margin-bottom: 20px;
     text-align: center;
    justify-content: center;
    display: flex;
@@ -693,6 +685,13 @@ footer a{
         font-weight: 300;
         margin-bottom: 20px;
         padding: 0 30px;
+    }
+}
+
+@media (max-width: 930px){
+    .cont-drogas-espa{
+        display: inline-block;
+        background-color: yellow;
     }
 }
 
